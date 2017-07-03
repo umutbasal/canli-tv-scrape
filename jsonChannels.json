@@ -1,0 +1,596 @@
+{
+  "trt1" :
+    {
+      "name" : "TRT 1",
+      "self" : "trt1",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trt1",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "tv8" :
+    {
+      "name" : "TV8",
+      "self" : "tv8",
+      "url" : "https://www.tv8.com.tr/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : null
+    },
+  "startv" :
+    {
+      "name" : "STAR TV",
+      "self" : "startv",
+      "url" : "http://www.startv.com.tr/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : "http://local.dev/dogus/startv"
+    },
+  "showtv" :
+    {
+      "name" : "SHOW TV",
+      "self" : "showtv",
+      "url" : "http://www.showtv.com.tr/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : null
+    },
+  "kanald" :
+    {
+      "name" : "KANAL D",
+      "self" : "kanald",
+      "url" : "https://www.kanald.com.tr/canli-yayin",
+      "freeStream" : "https://2122248091.dogannet.tv/S2/HLS_LIVE/kanaldnp/playlist.m3u8?key=false",
+      "regex" : null,
+      "get" : null
+    },
+  "atv" :
+    {
+      "name" : "ATV",
+      "self" : "atv",
+      "url" : "http://www.atv.com.tr/webtv/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/atvhd/atvhd.m3u8"
+    },
+  "a2tv" :
+    {
+      "name" : "A2TV",
+      "self" : "a2tv",
+      "url" : "http://www.a2tv.com.tr/webtv/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/a2tv/a2tv.m3u8"
+    },
+  "teve2" :
+    {
+      "name" : "TEVE 2",
+      "self" : "teve2",
+      "url" : "http://www.teve2.com.tr/canli-yayin",
+      "freeStream" : "https://live.dogannet.tv/S2/HLS_LIVE/tv2/playlist.m3u8?key=false",
+      "regex" : null,
+      "get" : null
+    },
+  "foxtv" :
+    {
+      "name" : "FOX TV",
+      "self" : "foxtv",
+      "url" : "http://www.fox.com.tr/canli-yayin",
+      "freeStream" : "http://mn-i.mncdn.com/foxtv/smil:foxtv_iphone.smil/playlist.m3u8?token=false",
+      "regex" : null,
+      "get" : null
+    },
+  "beyaztv" :
+    {
+      "name" : "BEYAZ TV",
+      "self" : "beyaztv",
+      "url" : "http://www.ecanlitvizle.net/beyaz-tv-izle/",
+      "freeStream" : null,
+      "regex" : "[\"']http.*?wms.*?[\"']",
+      "get" : "http://www.ecanlitvizle.net/embed.php?kanal=beyaz-tv-izle"
+    },
+  "tv360" :
+    {
+      "name" : "TV 360",
+      "self" : "tv360",
+      "url" : "http://www.tv360.com.tr/CanliYayin",
+      "freeStream" : "http://mn-l.mncdn.com/360tv_live/smil:360tv.smil/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "tlctv" :
+    {
+      "name" : "TLC TV",
+      "self" : "tlctv",
+      "url" : "http://www.ecanlitvizle.net/tlc-tv/",
+      "freeStream" : null,
+      "regex" : "http:.*=",
+      "get" : "http://www.ecanlitvizle.net/embed.php?kanal=tlc-tv"
+    },
+  "kanal7" :
+    {
+      "name" : "KANAL 7",
+      "self" : "kanal7",
+      "url" : "http://www.kanal7.com/canli-izle",
+      "freeStream" : "http://37.48.64.210/live/kanal7LiveDesktop/index.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "showturk" :
+    {
+      "name" : "SHOW TÜRK",
+      "self" : "showturk",
+      "url" : "http://www.showturk.com.tr/canli-yayin/showturk",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : null
+    },
+  "showmax" :
+    {
+      "name" : "SHOW MAX",
+      "self" : "showmax",
+      "url" : "http://www.showmax.com.tr/canliyayin/",
+      "freeStream" : "http://mn-i.mncdn.com/showmax_mobile/smil:showmax.smil/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "eurostar" :
+    {
+      "name" : "EURO STAR",
+      "self" : "eurostar",
+      "url" : "http://www.eurostartv.com.tr/canli-izle",
+      "freeStream" : null,
+      "regex" : "http:.*?[a-f0-9]{48}",
+      "get" : null
+    },
+  "atvavrupa" :
+    {
+      "name" : "ATV AVRUPA",
+      "self" : "atvavrupa",
+      "url" : "http://www.atvavrupa.tv/webtv/videoizle/atv_avrupa/canli_yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/atvavrupa/atvavrupa.m3u8"
+    },
+  "eurod" :
+    {
+      "name" : "EURO D",
+      "self" : "eurod",
+      "url" : "http://www.ecanlitvizle.net/eurod/",
+      "freeStream" : null,
+      "regex" : "http.*=",
+      "get" : "http://www.ecanlitvizle.net/embed.php?kanal=eurod"
+    },
+  "tgrteu" :
+    {
+      "name" : "TGRT EU",
+      "self" : "tgrteu",
+      "url" : "http://www.tgrteu.com/canliyayin/tgrteu.html",
+      "freeStream" : "http://cdn1.streamencoding.com:1935/tgrt_eu/amlst:live-32/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "tv8int" :
+    {
+      "name" : "TV8 INT",
+      "self" : "tv8int",
+      "url" : "https://www.canlitv.life/tv8-int",
+      "freeStream" : "https://ams.tvizlehd.com/live/tv8int/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "cnnturk" :
+    {
+      "name" : "CNN TÜRK",
+      "self" : "cnnturk",
+      "url" : "http://www.cnnturk.com/canli-yayin",
+      "freeStream" : null,
+      "regex" : null,
+      "get" : "https://2122248091.dogannet.tv/S2/HLS_LIVE/cnn_turk/index.m3u8?key=false"
+    },
+  "ntv" :
+    {
+      "name" : "NTV",
+      "self" : "ntv",
+      "url" : "http://www.ntv.com.tr/canli-yayin/ntv",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : "http://local.dev/dogus/ntv"
+    },
+  "haberturk" :
+    {
+      "name" : "HABER TÜRK",
+      "self" : "haberturk",
+      "url" : "http://www.haberturk.tv/canliyayin",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : null
+    },
+  "trthaber" :
+    {
+      "name" : "TRT HABER",
+      "self" : "trthaber",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trthaber",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "trtturk" :
+    {
+      "name" : "TRT TÜRK",
+      "self" : "trtturk",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trtturk",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "trtworld" :
+    {
+      "name" : "TRT WORLD",
+      "self" : "trtworld",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trtworld",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTWORLD_1@321783/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "bloomberght" :
+    {
+      "name" : "BLOOMBERG HT",
+      "self" : "bloomberght",
+      "url" : "http://www.bloomberght.com/tv/canli-yayin",
+      "freeStream" : "http://mn-i.mncdn.com/bloomberght_ios/smil:bloomberght.smil/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "euronews" :
+    {
+      "name" : "EURONEWS",
+      "self" : "euronews",
+      "url" : "http://tr.euronews.com/api/watchlive.json",
+      "freeStream" : null,
+      "regex" : "[\"]http.*?[\"]",
+      "get" : "http://local.dev/euronews/lang/tr"
+    },
+  "ulusalkanal" :
+    {
+      "name" : "ULUSAL KANAL",
+      "self" : "ulusalkanal",
+      "url" : "http://www.ulusalkanal.com.tr/canliyayin/canliyayin.php",
+      "freeStream" : "http://184.173.181.2:1935/8132/8132/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "kanal24" :
+    {
+      "name" : "KANAL 24",
+      "self" : "kanal24",
+      "url" : "http://www.yirmidort.tv/canli-yayin/",
+      "freeStream" : "http://mn-l.mncdn.com/kanal24/smil:kanal24.smil/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "kanala" :
+    {
+      "name" : "KANAL A",
+      "self" : "kanala",
+      "url" : "http://www.canlitv.com/kanala",
+      "freeStream" : "http://nocvp-usd.noccdn.net/asset/7xJC9Qt5/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "ulketv" :
+    {
+      "name" : "ÜLKE TV",
+      "self" : "ulketv",
+      "url" : "http://www.ecanlitvizle.net/ulke-tv-izle/",
+      "freeStream" : null,
+      "regex" : "[\"']http.*?wms.*?[\"']",
+      "get" : "http://www.ecanlitvizle.net/embed.php?kanal=ulke-tv-izle"
+    },
+  "ahaber" :
+    {
+      "name" : "A HABER",
+      "self" : "ahaber",
+      "url" : "http://www.ahaber.com.tr/webtv/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/ahaberhd/ahaberhd.m3u8"
+    },
+  "halktv" :
+    {
+      "name" : "HALK TV",
+      "self" : "halktv",
+      "url" : "http://web.tv/embed/live/40367",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : null
+    },
+  "tvnet" :
+    {
+      "name" : "TV NET",
+      "self" : "tvnet",
+      "url" : "http://www.tvnet.com.tr/canli-yayin",
+      "freeStream" : "http://canli2.tvnet.tv.tr/live/smil:tvnet.smil/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "tgrthaber" :
+    {
+      "name" : "TGRT HABER",
+      "self" : "tgrthaber",
+      "url" : "http://www.tgrthaber.com.tr/canli",
+      "freeStream" : "http://cdn1.streamencoding.com:1935/tgrt_haber/tgrt3/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "ntvspor" :
+    {
+      "name" : "NTV SPOR",
+      "self" : "ntvspor",
+      "url" : "http://www.ntvspor.net/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : "http://local.dev/dogus/ntvspor"
+    },
+  "tv85" :
+    {
+      "name" : "TV 8.5",
+      "self" : "tv85",
+      "url" : "https://www.canlitv.life/tv-8-5",
+      "freeStream" : null,
+      "regex" : "http.*?tms=[0-9]{10}",
+      "get" : "https://www.canlitv.life/kanallar.php?kanal=tv-8-5&security=false"
+    },
+  "trtspor" :
+    {
+      "name" : "TRT SPOR",
+      "self" : "trtspor",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trtspor",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "aspor" :
+    {
+      "name" : "A SPOR",
+      "self" : "aspor",
+      "url" : "http://www.aspor.com.tr/webtv/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/asporhd/asporhd.m3u8"
+    },
+  "sportstv" :
+    {
+      "name" : "SPORTS TV",
+      "self" : "sportstv",
+      "url" : "http://www.sportstv.com.tr/canli-yayin/",
+      "freeStream" : "https://ams.tvizlehd.com/live/sportstv/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "gstv" :
+    {
+      "name" : "GS TV",
+      "self" : "gstv",
+      "url" : "http://www.galatasaray.com/",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : null
+    },
+  "trtmuzik" :
+    {
+      "name" : "TRT MÜZİK",
+      "self" : "trtmuzik",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trtmuzik",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "dreamtv" :
+    {
+      "name" : "DREAM TV",
+      "self" : "dreamtv",
+      "url" : "http://www.dreamtv.com.tr/canli-yayin",
+      "freeStream" : "https://live.dogannet.tv/S2/HLS_LIVE/dreamtv/index.m3u8?key=false",
+      "regex" : null,
+      "get" : null
+    },
+  "dreamturk" :
+    {
+      "name" : "DREAM TÜRK",
+      "self" : "dreamturk",
+      "url" : "http://www.dreamturk.com.tr/canli",
+      "freeStream" : "https://live.dogannet.tv/S2/HLS_LIVE/dreamturktv/1000/prog_index.m3u8?key=false",
+      "regex" : null,
+      "get" : null
+    },
+  "nr1" :
+    {
+      "name" : "NR1",
+      "self" : "nr1",
+      "url" : "https://www.numberone.com.tr/2015-12-17/nr1-tv-canli-yayin/",
+      "freeStream" : "http://mn-l.mncdn.com/birnumaramedya_live/nr1tv.sdp/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "nr1turk" :
+    {
+      "name" : "NR1 TURK",
+      "self" : "nr1turk",
+      "url" : "https://www.numberone.com.tr/2015-12-17/nr1-turk-tv-canli-yayin/",
+      "freeStream" : "http://mn-l.mncdn.com/birnumaramedya_live/nr1_turk.sdp/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "kraltv" :
+    {
+      "name" : "KRAL TV",
+      "self" : "kraltv",
+      "url" : "http://www.kralmuzik.com.tr/tv/kral-tv",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : "http://local.dev/dogus/kraltv"
+    },
+  "kralpop" :
+    {
+      "name" : "KRAL POP",
+      "self" : "kralpop",
+      "url" : "http://www.kralmuzik.com.tr/tv/kral-pop-tv",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : "http://local.dev/dogus/kralpop"
+    },
+  "kralworld" :
+    {
+      "name" : "KRAL WORLD",
+      "self" : "kralworld",
+      "url" : "http://www.kralmuzik.com.tr/tv/kral-world-tv",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{48}",
+      "get" : "http://local.dev/dogus/kralworldtv"
+    },
+  "trtcocuk" :
+    {
+      "name" : "TRT ÇOCUK",
+      "self" : "trtcocuk",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trtcocuk",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTCOCUK_1@181844/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "cartoonnetwork" :
+    {
+      "name" : "CARTOON NETWORK",
+      "self" : "cartoonnetwork",
+      "url" : "http://www.canlitv.com/cartoon-network",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{32}",
+      "get" : null
+    },
+  "minikacocuk" :
+    {
+      "name" : "MINIKA ÇOCUK",
+      "self" : "minikacocuk",
+      "url" : "http://www.minikacocuk.com.tr/webtv/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/minikagococuk/minikagococuk.m3u8"
+    },
+  "minikago" :
+    {
+      "name" : "MINIKA GO",
+      "self" : "minikago",
+      "url" : "http://www.minikago.com.tr/webtv/canli-yayin",
+      "freeStream" : null,
+      "regex" : "http.*?e=[0-9]{10}",
+      "get" : "http://videotoken.tmgrup.com.tr/webtv/secure?url=http://trkvz-live.ercdn.net/minikago/minikago.m3u8"
+    },
+  "planetcocuk" :
+    {
+      "name" : "PLANET ÇOCUK",
+      "self" : "planetcocuk",
+      "url" : "http://www.planetler.com/cocuk_canli.aspx",
+      "freeStream" : "http://planet-live.ercdn.net/planetc.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "disneychannel" :
+    {
+      "name" : "DISNEY CHANNEL",
+      "self" : "disneychannel",
+      "url" : "http://www.canlitv.com/disney-channel",
+      "freeStream" : null,
+      "regex" : "http.*?[a-f0-9]{32}",
+      "get" : null
+    },
+  "tv4" :
+    {
+      "name" : "TV4",
+      "self" : "tv4",
+      "url" : "http://www.tv4.com.tr/",
+      "freeStream" : "http://mn-l.mncdn.com/karamel/karamel/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "sonychannel" :
+    {
+      "name" : "SONY CHANNEL",
+      "self" : "sonychannel",
+      "url" : "https://www.canlitv.life/sony-channel-turkiye",
+      "freeStream" : "https://ams.tvizlehd.com/live/sonychannel/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "planetturk" :
+    {
+      "name" : "PLANET TÜRK",
+      "self" : "planetturk",
+      "url" : "http://www.planetler.com/turk_canli.aspx",
+      "freeStream" : "http://planet-live.ercdn.net/planett.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "filtv" :
+    {
+      "name" : "FİL TV",
+      "self" : "filtv",
+      "url" : "http://www.ecanlitvizle.net/fil-tv-izle/",
+      "freeStream" : "http://canli2.tvnet.tv.tr/live/smil:filtv.smil/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "frmtv" :
+    {
+      "name" : "FRM TV",
+      "self" : "frmtv",
+      "url" : "http://www.frmtv.com/canli-yayin/",
+      "freeStream" : "http://185.50.68.221:1935/live/myStream/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "yenisinema" :
+    {
+      "name" : "YENİ SİNEMA",
+      "self" : "yenisinema",
+      "url" : "https://www.canlitv.life/yeni-sinema-tv",
+      "freeStream" : null,
+      "regex" : "http.*?tms=[0-9]{10}",
+      "get" : "https://www.canlitv.life/kanallar.php?kanal=yeni-sinema-tv&security=false"
+    },
+  "trtbelgesel" :
+    {
+      "name" : "TRT BELGESEL",
+      "self" : "trtbelgesel",
+      "url" : "http://www.trt.net.tr/anasayfa/canli.aspx?y=tv&k=trtbelgesel",
+      "freeStream" : "http://trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/master.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "tgrtbelgesel" :
+    {
+      "name" : "TGRT BELGESEL",
+      "self" : "tgrtbelgesel",
+      "url" : "http://www.tgrtbelgesel.com/CanliYayin/live.html",
+      "freeStream" : "http://cdn1.streamencoding.com:1935/tgrt_belgesel/tgrt3/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "yabantv" :
+    {
+      "name" : "YABAN TV",
+      "self" : "yabantv",
+      "url" : "http://www.yabantv.com/Video/Canli-izle",
+      "freeStream" : "http://yayin3.canlitv.com:1935/live1/yabantv/playlist.m3u8",
+      "regex" : null,
+      "get" : null
+    },
+  "makinetv" :
+    {
+      "name" : "MAKİNE TV",
+      "self" : "makinetv",
+      "url" : "http://makinetv.net",
+      "freeStream" : "rtmp://streaming.imajnetwork.com:80/makinetv/makinetv",
+      "regex" : null,
+      "get" : null
+    }
+}
