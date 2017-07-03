@@ -12,3 +12,4 @@ get = eğer yayın linkinin bulunduğu embed link referrer korumalı ise embed l
 
 ip bazlı token korumalı yayınları oynatabilmeniz için aynı ip adresine sahip olmanız gerekir.lan üzerinden bilgisayarınızda çalıştırıp tv de kodi programında bu listeyi açabilirsiniz http://192.168.x.x/list/m3u8
 bazı kanallarda ek korumalar bulunmakta onlar içinde 2 tane örnek yazdım bakıp başka kanallarada yazabilirsiniz.
+testlerinizi vlc player ile yapabilirsiniz http://localhost/list/m3u8
